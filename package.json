@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/17number/php-auto-format-with-husky-example/issues"
   },
-  "homepage": "https://github.com/17number/php-auto-format-with-husky-example#readme"
+  "homepage": "https://github.com/17number/php-auto-format-with-husky-example#readme",
+  "devDependencies": {
+    "husky": "^3.0.5",
+    "lint-staged": "^9.2.5"
+  }
 }
