@@ -1,0 +1,10 @@
+<?php
+$finder = PhpCsFixer\Finder::create()
+    ->exclude('')
+    ->in(__DIR__)
+;
+$rules = [];
+return PhpCsFixer\Config::create()
+    ->setRules($rules)
+    ->setFinder($finder)
+;
